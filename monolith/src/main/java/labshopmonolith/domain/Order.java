@@ -37,6 +37,11 @@ public class Order {
 
         OrderPlaced orderPlaced = new OrderPlaced(this);
         orderPlaced.publishAfterCommit();
+        // Get request from Order
+        //labshopmonolith.external.Order order =
+        //    Application.applicationContext.getBean(labshopmonolith.external.OrderService.class)
+        //    .getOrder(/** mapping value needed */);
+
     }
 
     public static OrderRepository repository() {

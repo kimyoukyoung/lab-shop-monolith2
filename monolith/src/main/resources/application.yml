@@ -42,6 +42,7 @@ logging:
 api:
   url:
     inventory: localhost:8083
+monolith: localhost:8082
 
 
 server:
@@ -76,5 +77,6 @@ spring:
 api:
   url:
     inventory:8080
+monolith:8080
 
 
